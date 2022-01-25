@@ -1,0 +1,34 @@
+{
+    "signup" : {
+        "name": "Vinicius Marinho",
+        "cpf": "00000014141",
+        "email": "vinicius@vinicius.com",
+        "whatsapp" : "11123412345",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "images/cnh-digital.jpg"
+    },
+    "cpf_inv" :{
+        "name": "João Vinicius",
+        "cpf": "000000141AA",
+        "email": "joao@vinicius.com",
+        "whatsapp" : "11123412345",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "images/cnh-digital.jpg"
+    }
+}
