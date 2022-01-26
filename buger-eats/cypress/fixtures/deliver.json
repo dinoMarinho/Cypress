@@ -30,5 +30,21 @@
         },
         "delivery_method": "Moto",
         "cnh": "images/cnh-digital.jpg"
+    },
+    "email_inv" : {
+        "name": "Vinicius Marinho",
+        "cpf": "00000014141",
+        "email": "vinicius.com",
+        "whatsapp" : "11123412345",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "images/cnh-digital.jpg"
     }
 }
