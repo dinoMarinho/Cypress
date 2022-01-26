@@ -9,7 +9,7 @@ describe('Signup', () => {
     //     })
     // });
 
-    it.skip('User should be deliver', function () {
+    it('User should be deliver', function () {
 
         var deliver = signupFactory.deliver();
 
@@ -22,7 +22,7 @@ describe('Signup', () => {
 
     });
 
-    it.skip('Incorrect document ', function() {
+    it('Incorrect document ', function() {
 
         var deliver = signupFactory.deliver();
 
@@ -35,7 +35,7 @@ describe('Signup', () => {
         signup.alertContentShouldBe('Oops! CPF inválido');
     });
 
-    it.skip('Incorrect email ', function() {
+    it('Incorrect email ', function() {
 
         var deliver = signupFactory.deliver();
 
