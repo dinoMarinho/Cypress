@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open",
-    "test.background": "npx cypress run"
+    "test.background": "npx cypress run",
+    "test.background.edge": "npx cypress run -b edge",
+    "test.background.firefox": "npx cypress run -b firefox:dev"
   },
   "author": "Vinicius Marinho",
   "license": "MIT",
