@@ -9,7 +9,7 @@ describe('Signup', () => {
     //     })
     // });
 
-    it('User should be deliver', function () {
+    it.skip('User should be deliver', function () {
 
         var deliver = signupFactory.deliver();
 
@@ -21,7 +21,8 @@ describe('Signup', () => {
         signup.modalContentShouldBe(expectedMessage);
 
     });
-    it('Incorrect document ', function() {
+
+    it.skip('Incorrect document ', function() {
 
         var deliver = signupFactory.deliver();
 
@@ -34,7 +35,7 @@ describe('Signup', () => {
         signup.alertContentShouldBe('Oops! CPF inválido');
     });
 
-    it('Incorrect email ', function() {
+    it.skip('Incorrect email ', function() {
 
         var deliver = signupFactory.deliver();
 
@@ -45,5 +46,19 @@ describe('Signup', () => {
         signup.submit();
 
         signup.alertContentShouldBe('Oops! Email com formato inválido.');
+    });
+
+    it('Required fields', function() {
+        signup.go();
+        signup.submit();
+
+        signup.alertContentShouldBe('É necessário informar o nome');
+        signup.alertContentShouldBe('É necessário informar o CPF');
+        signup.alertContentShouldBe('É necessário informar o email');
+        signup.alertContentShouldBe('É necessário informar o CEP');
+        signup.alertContentShouldBe('É necessário informar o número do endereço');
+        signup.alertContentShouldBe('Selecione o método de entrega');
+        signup.alertContentShouldBe('Adicione uma foto da sua CNH');
+
     });
 });
